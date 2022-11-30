@@ -1,3 +1,7 @@
 git checkout -b "lucca"
 git branch -a
 docker build -t dockertest -f .\Dockerfile .
+
+git add *
+git commit -m "commit to branch lucca"
+# git push ???
